@@ -1,0 +1,150 @@
+.container {
+    height: 93vh;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+}
+
+/* ==== Main Page ==== */
+
+nav {
+    display: flex;
+    height: 7vh;
+    background-color: rgb(236, 236, 236);
+}
+
+nav div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    padding-left: 50px;
+}
+
+nav .left-side img {
+    margin-right: 40px;
+}
+
+nav .left-side a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav .right-side {
+    padding-right: 50px;
+    justify-content: end;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* ==== Akhir Main Page ==== */
+
+/* ==== Form Contact Me ==== */
+.form-contact-me {
+    /* border-style: solid; */
+    width: 400px
+}
+
+/* .label-input {
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.form-contact-me div {
+    margin-bottom: 20px;
+}
+
+.form-contact-me div label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-contact-me div input,select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    padding: 10px;
+    resize: none;
+}
+
+.form-contact-me button {
+    background-color: #0e0d0d77;
+    margin-left: 75%;
+    color: white;
+    font-size: 16px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.form-contact-me button:hover {
+    background-color: rgb(5, 5, 5);
+}
+
+/* ==== Akhir Form Contact Me ==== */
+
+/* ==== Main Page ==== */
+.wrapper {
+    width: 85%;
+    padding: 10;
+    display: flex;
+}
+
+.wrapper .left-side {
+    border-style: solid;
+    flex: 40%;
+}
+
+.wrapper .right-side {
+    flex: 60%;
+    padding-left: 20px;
+}
+
+.wrapper .right-side .skill {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper .right-side .skill .item {
+    flex: 1;
+}
+
+.wrapper .right-side p {
+    color: gray;
+}
+
+.wrapper .right-side .sosmed .sosmed-wrapper {
+    display: flex;
+}
+
+.wrapper .right-side .sosmed .sosmed-wrapper a {
+    color: black;
+}
+
+.wrapper .right-side .sosmed .icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* ==== Akhir Main Page ==== */
